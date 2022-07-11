@@ -46,6 +46,15 @@ header nav ul li a{
     font-size: 22px;
 }
 
+/*Apply styles to hero*/
+section div {
+    background-color:#fce138 ;
+    padding: 20;
+    border-color: #024e76;
+    color: #024e76;
+    float: right;
+}
+
 /*Apply Styles to <footer>*/
 footer {
     background: #fce138;
