@@ -9,7 +9,9 @@
     <body>
         <header>
             <h1>
-                <a href="/">RUN BUDDY</a>
+                <a href="/">
+                    RUN BUDDY
+                </a>
             </h1>
             <nav>
                 <ul>
@@ -28,31 +30,32 @@
                 </ul>
             </nav>
          </header>
+
          <!-- box2-->
-         <section>
-            <div>
+         <section class="hero">
+            <div class="hero-form">
                 <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult.</p><br/>
-                <!--add form element-->
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
                 <form>    
-                    <label for="name">Enter full name:</label><br/>
-                    <input type="text" placeholder="Your Name" name="name" id="name" /><br/>
-                    <label for="email">Enter email address:</label><br/>
-                    <input type="email" placeholder="Email Address" id="email" name="email" /><br/>
-                    <label for="phone">Enter telephone number:</label><br/>
-                    <input type="phone" placeholder= "Phone Number" id="phone" name="phone" /><br/>
-                    <p>Have you worked out with a trainer before?
-                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
+                    <label for="phone">Enter telephone number:</label>
+                    <input type="phone" placeholder= "Phone Number" id="phone" name="phone" class="form-input"/>
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
                         <label for="trainer-yes">Yes</label>
                         <input type="radio" name="trainer-confirm" id="trainer-no" />
                         <label for="trainer-no">No</label>
                     </p>
                     <p>
                         <label for="checkbox">
-                            I acknowledge that I am at least 18 years of age.
+                        I acknowledge that I am at least 18 years of age
                         </label>
                         <input type="checkbox" name="age-confirm" id="checkbox" />
-                    </p>
+                    </p> 
                     <button type="submit">
                         Get Running!
                     </button>
