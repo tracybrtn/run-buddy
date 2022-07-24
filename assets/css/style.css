@@ -41,7 +41,7 @@ header nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  line-height: none;
+  list-style: none;
 }
 
 header nav ul li a {
@@ -58,10 +58,10 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -226,15 +226,15 @@ section {
   flex: 12;
 }
 
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
 }
 
 /* WHAT YOU DO STYLES END */
@@ -249,10 +249,10 @@ section {
 }
 
 .trainer {
-  margin: 0 auto 30px auto;
+  margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -290,8 +290,8 @@ section {
 
 .contact-info {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .contact-info > * {
@@ -300,7 +300,7 @@ section {
 }
 
 .contact-info iframe {
-  height: 400px ;
+  height: 400px;
 }
 
 .contact-info div {
@@ -313,18 +313,10 @@ section {
 }
 
 .contact-info p, .contact-info address {
-  margin: 16px 0;
+  margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
-}
-
-.contact-info a {
-  color: #fce138;
-}
-
-.contact-form {
-  display: flex;
 }
 
 .contact-form input, .contact-form textarea {
@@ -346,6 +338,10 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+.contact-info a {
+  color: #fce138;
 }
 
 
