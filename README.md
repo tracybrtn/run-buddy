@@ -1,6 +1,6 @@
 # Run Buddy, Inc
 
-![Screenshot of deployed application]()
+![Screenshot of deployed application](https://github.com/tracybrtn/run-buddy/blob/d259903aa8c10a4a5ccfad9a25234b7f0b6cf916/assets/images/deployed-website-run-buddy.png)
 
 ## Description
 
